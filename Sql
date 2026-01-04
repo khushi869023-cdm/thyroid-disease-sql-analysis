@@ -1,1 +1,11 @@
-
+#schema.sql
+CREATE TABLE thyroid_data (
+  Age INT,
+  Gender VARCHAR(10),
+  Smoking VARCHAR(10),
+  Thyroid_Function VARCHAR(50),
+  Pathology VARCHAR(50),
+  Stage VARCHAR(10),
+  Risk VARCHAR(20),
+  Recurred VARCHAR(10)
+);
